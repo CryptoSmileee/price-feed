@@ -2,153 +2,92 @@
 
 
 [[projects]]
-  digest = "1:6d3bb24f40e11d29c5f7be819aa7b3b05a0f42033aa2f806ff18a4161b538671"
   name = "github.com/adshao/go-binance"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "6cf0e802b22a56ff09523536cf27fbb666180a98"
-  version = "1.1.2"
+  revision = "e9a4ac01ca4814807bd4fb573da2129564cb23b3"
+  version = "1.2.0"
 
 [[projects]]
-  digest = "1:b520b55fc1146c5b0eea03b07233f7a3d4a9be985c037c91ea6b82ecb81bd521"
   name = "github.com/bitly/go-simplejson"
   packages = ["."]
-  pruneopts = "UT"
   revision = "aabad6e819789e569bd6aabf444c935aa9ba1e44"
   version = "v0.5.0"
 
 [[projects]]
-  digest = "1:c79fb010be38a59d657c48c6ba1d003a8aa651fa56b579d959d74573b7dff8e1"
-  name = "github.com/gorilla/context"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
-  version = "v1.1.1"
-
-[[projects]]
-  digest = "1:e73f5b0152105f18bc131fba127d9949305c8693f8a762588a82a48f61756f5f"
   name = "github.com/gorilla/mux"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
-  version = "v1.6.2"
+  revision = "c5c6c98bc25355028a63748a498942a6398ccd22"
+  version = "v1.7.1"
 
 [[projects]]
-  digest = "1:7b5c6e2eeaa9ae5907c391a91c132abfd5c9e8a784a341b5625e750c67e6825d"
   name = "github.com/gorilla/websocket"
   packages = ["."]
-  pruneopts = "UT"
   revision = "66b9c49e59c6c48f0ffce28c2d8b8a5678502c6d"
   version = "v1.4.0"
 
 [[projects]]
   branch = "master"
-  digest = "1:0de210dd268abdf06a0b701a367208193ded5c02c566aa114a93f15e9016db3f"
   name = "github.com/jyap808/go-poloniex"
   packages = ["."]
-  pruneopts = "UT"
   revision = "50b163cd72c2230ab6f107a0c024f53d488c4ec0"
 
 [[projects]]
-  digest = "1:0a69a1c0db3591fcefb47f115b224592c8dfa4368b7ba9fae509d5e16cdc95c8"
   name = "github.com/konsorten/go-windows-terminal-sequences"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "5c8c8bd35d3832f5d134ae1e1e375b69a4d25242"
-  version = "v1.0.1"
+  revision = "f55edac94c9bbba5d6182a4be46d86a2c9b5b50e"
+  version = "v1.0.2"
 
 [[projects]]
-  digest = "1:40e195917a951a8bf867cd05de2a46aaf1806c50cf92eebf4c16f78cd196f747"
   name = "github.com/pkg/errors"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
+  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
+  version = "v0.8.1"
 
 [[projects]]
-  digest = "1:81e02c4edb639c80559c0650f9401d3e2dcc3256d1fa215382bb7c83c1db9126"
   name = "github.com/shopspring/decimal"
   packages = ["."]
-  pruneopts = "UT"
   revision = "cd690d0c9e2447b1ef2a129a6b7b49077da89b8e"
   version = "1.1.0"
 
 [[projects]]
-  digest = "1:69b1cc331fca23d702bd72f860c6a647afd0aa9fcbc1d0659b1365e26546dd70"
   name = "github.com/sirupsen/logrus"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "bcd833dfe83d3cebad139e4a29ed79cb2318bf95"
-  version = "v1.2.0"
+  revision = "8bdbc7bcc01dcbb8ec23dc8a28e332258d25251f"
+  version = "v1.4.1"
 
 [[projects]]
   branch = "master"
-  digest = "1:d51bf25874115cb888cf614aa2d248ff18fca48c2daf4c1dcc44a006402e7651"
   name = "github.com/thebotguys/signalr"
   packages = ["."]
-  pruneopts = "UT"
   revision = "787ebe6729fc69294e8d385b21e795cff45a2bea"
 
 [[projects]]
   branch = "master"
-  digest = "1:353557c4fac726379708abb00d6cfaefcf56f533ea0a63092736ddb91bac9df4"
   name = "github.com/toorop/go-bittrex"
   packages = ["."]
-  pruneopts = "UT"
-  revision = "b941be99f94f49cb0c552eb97ab46ff5fa6eac71"
+  revision = "b4a20c2db009afea9ceca5d1592e34618ce3b324"
 
 [[projects]]
   branch = "master"
-  digest = "1:38f553aff0273ad6f367cb0a0f8b6eecbaef8dc6cb8b50e57b6a81c1d5b1e332"
-  name = "golang.org/x/crypto"
-  packages = ["ssh/terminal"]
-  pruneopts = "UT"
-  revision = "eb0de9b17e854e9b1ccd9963efafc79862359959"
-
-[[projects]]
-  branch = "master"
-  digest = "1:0c7cb58af944f9690af91474a75371eecfe54c1ce3771a8dc08924430ee785d3"
   name = "golang.org/x/sys"
-  packages = [
-    "unix",
-    "windows",
-  ]
-  pruneopts = "UT"
-  revision = "4ed8d59d0b35e1e29334a206d1b3f38b1e5dfb31"
+  packages = ["unix"]
+  revision = "16072639606ea9e22c7d86e4cbd6af6314f4193c"
 
 [[projects]]
   branch = "v1"
-  digest = "1:3443b1423511a78a2108f907e8ab347e3e16db19b2ab6d3219d75d88839757c1"
   name = "gopkg.in/bsm/ratelimit.v1"
   packages = ["."]
-  pruneopts = "UT"
   revision = "db14e161995a5177acef654cb0dd785e8ee8bc22"
 
 [[projects]]
-  digest = "1:cac778da79c136e5de51b654d377cdaab15be93cfd1f98fab4866dbb7441d445"
   name = "gopkg.in/redis.v3"
-  packages = [
-    ".",
-    "internal",
-    "internal/consistenthash",
-    "internal/hashtag",
-    "internal/pool",
-  ]
-  pruneopts = "UT"
+  packages = [".","internal","internal/consistenthash","internal/hashtag","internal/pool"]
   revision = "b5e368500d0a508ef8f16e9c2d4025a8a46bcc29"
   version = "v3.6.4"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/adshao/go-binance",
-    "github.com/gorilla/mux",
-    "github.com/jyap808/go-poloniex",
-    "github.com/pkg/errors",
-    "github.com/sirupsen/logrus",
-    "github.com/toorop/go-bittrex",
-    "gopkg.in/redis.v3",
-  ]
+  inputs-digest = "490660bb31c2c38694086c5609c3cc208d925eb9cbe9cb4a55ed1c4f92b4a6a1"
   solver-name = "gps-cdcl"
   solver-version = 1
