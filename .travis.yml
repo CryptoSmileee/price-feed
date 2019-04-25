@@ -1,7 +1,5 @@
 language: go
 
-go_import_path: github.com/cryptosmileee/price-feed
-
 env:
   - DEP_VERSION="0.5.1" GO111MODULE=on
 
