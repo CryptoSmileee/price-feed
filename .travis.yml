@@ -4,7 +4,6 @@ go_import_path: github.com/cryptosmileee/price-feed
 
 env:
   - DEP_VERSION="0.5.1"
-  - GO111MODULE=on
 
 before_install:
   - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
@@ -12,3 +11,5 @@ before_install:
 
 install:
   - dep ensure
+
+script: go test -v -mod=vendor ./...
