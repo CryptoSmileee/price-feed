@@ -13,9 +13,9 @@ import (
 
 	"github.com/adshao/go-binance"
 	"github.com/pkg/errors"
-	"price-feed/logger"
-	"price-feed/models"
-	"price-feed/storage"
+	"github.com/orionprotocol/price-feed/logger"
+	"github.com/orionprotocol/price-feed/models"
+	"github.com/orionprotocol/price-feed/storage"
 )
 
 const (

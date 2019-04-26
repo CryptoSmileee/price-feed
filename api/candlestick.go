@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"price-feed/models"
+	"github.com/orionprotocol/price-feed/models"
 )
 
 func (api *API) handleCandlestickRequest(w http.ResponseWriter, r *http.Request) {

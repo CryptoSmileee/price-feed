@@ -34,6 +34,10 @@
   name = "github.com/jyap808/go-poloniex"
 
 [[constraint]]
+  branch = "master"
+  name = "github.com/orionprotocol/price-feed"
+
+[[constraint]]
   name = "github.com/pkg/errors"
   version = "0.8.1"
 

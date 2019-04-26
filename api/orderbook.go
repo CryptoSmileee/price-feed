@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"price-feed/models"
+	"github.com/orionprotocol/price-feed/models"
 )
 
 const (

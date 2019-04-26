@@ -6,14 +6,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"price-feed/exchanges/bittrex"
-	"price-feed/exchanges/poloniex"
+	"github.com/orionprotocol/price-feed/exchanges/bittrex"
+	"github.com/orionprotocol/price-feed/exchanges/poloniex"
 
 	"github.com/pkg/errors"
-	"price-feed/api"
-	"price-feed/exchanges/binance"
-	"price-feed/logger"
-	"price-feed/storage"
+	"github.com/orionprotocol/price-feed/api"
+	"github.com/orionprotocol/price-feed/exchanges/binance"
+	"github.com/orionprotocol/price-feed/logger"
+	"github.com/orionprotocol/price-feed/storage"
 )
 
 const (

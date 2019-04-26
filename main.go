@@ -5,15 +5,15 @@ import (
 	"os"
 	"os/signal"
 
-	"price-feed/exchanges/poloniex"
+	"github.com/orionprotocol/price-feed/exchanges/poloniex"
 
-	"price-feed/exchanges/bittrex"
+	"github.com/orionprotocol/price-feed/exchanges/bittrex"
 
-	"price-feed/api"
-	"price-feed/config"
-	"price-feed/exchanges/binance"
-	"price-feed/logger"
-	"price-feed/storage"
+	"github.com/orionprotocol/price-feed/api"
+	"github.com/orionprotocol/price-feed/config"
+	"github.com/orionprotocol/price-feed/exchanges/binance"
+	"github.com/orionprotocol/price-feed/logger"
+	"github.com/orionprotocol/price-feed/storage"
 )
 
 func main() {

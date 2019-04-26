@@ -38,6 +38,12 @@
   version = "v1.0.2"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/orionprotocol/price-feed"
+  packages = ["api","config","exchanges/binance","exchanges/bittrex","exchanges/poloniex","logger","models","storage"]
+  revision = "f36e9b9acbd76c1a0d433c72bfdeea78b28ef77b"
+
+[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
@@ -88,6 +94,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "490660bb31c2c38694086c5609c3cc208d925eb9cbe9cb4a55ed1c4f92b4a6a1"
+  inputs-digest = "e5dbdf456f28e387852a0f28622dcad30123de828627c1de99c02ee0bb8c6fb0"
   solver-name = "gps-cdcl"
   solver-version = 1
