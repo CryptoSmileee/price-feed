@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://orionprotocol.io">
-    <img src="https://orionprotocol.io/images/logo.png" />
+    <img src="https://res.cloudinary.com/dnbcgedbu/image/upload/v1556261195/photo_2019-04-26_08-42-57.jpg" />
   </a>
 </p>
 
