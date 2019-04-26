@@ -56,7 +56,7 @@
 - Poloniex
 
 ## Api
-Read more about the Orion Protocol here: [API DOCS](./API)
+Read more about the API endpoints here: [API DOCS](./API)
 
 ## About Orion Protocol
 

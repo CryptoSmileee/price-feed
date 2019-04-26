@@ -30,10 +30,10 @@ This endpoint retrieves the order book
 
 ### Query Parameters
 
-Parameter | Description
--|-
-symbol | Trading pair for which order book is requested
-depth | Oder book depth between 1 and 1000
+Parameter | Default | Description | Value
+-|-|-|-
+symbol || Trading pair for which the candles are requested | String, e.g. - BTC_ETH
+depth || Order book depth | Number, Between 1 and 1000
 
 ## Candles
 
@@ -45,10 +45,10 @@ This endpoint retrieves the candles for a trading pair
 
 ### Query Parameters
 
-Parameter | Description
--|-
-symbol | Trading pair for which the candles are requested
-depth | Oder book depth between 1 and 1000
+Parameter | Default | Description | Value
+-|-|-|-
+symbol || Trading pair for which the candles are requested | String, e.g. - BTC_ETH
+depth || Order book depth | Number, Between 1 and 1000
 
 ## Reload
 
