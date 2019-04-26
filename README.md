@@ -70,5 +70,4 @@ Read more about the Orion Protocol here: https://orionprotocol.io/
 - [Twitter](https://twitter.com/OrionProtocl)
 
 ## License
-
-Orion Trading Terminal is released under the [MIT license](./LICENSE).
+Orion Price Feed is released under the [MIT license](./LICENSE).
